@@ -1,0 +1,6 @@
+<launch>
+
+ <node pkg="joy" type="joy_node" name="joy_node"/>
+ <node pkg="nao_joy" type="nao_joy_node" name="nao_joy_node"/>
+
+</launch>

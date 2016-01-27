@@ -1,0 +1,7 @@
+<launch>
+
+ <node pkg="joy" type="joy_node" name="joy_node"/>
+ <node pkg="nao_joy" type="nao_joy_node" name="nao_joy_node"/>
+ <node pkg="image_view" type="image_view" name="camera_top" image="nao_robot/camera/top/camera/image_raw"/>
+
+</launch>
